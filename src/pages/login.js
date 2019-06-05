@@ -8,7 +8,11 @@ import Grid from '@material-ui/core/Grid'
 import TextField from '@material-ui/core/TextField'
 import Typography from '@material-ui/core/Typography'
 import { withRouter } from "react-router-dom"
-import PasswordField from '../components/PasswordField'
+import PasswordField from 'material-ui-password-field'
+import FormControl from '@material-ui/core/FormControl'
+import FormHelperText from '@material-ui/core/FormHelperText'
+import InputLabel from '@material-ui/core/InputLabel'
+// import PasswordField from '../components/PasswordField'
 
 const useStyles = makeStyles(theme => ({
     container: {
@@ -24,7 +28,19 @@ const useStyles = makeStyles(theme => ({
     },
     fab: {
         width: 123
+    },
+    passwordField: {
+        width: '100%',
+        // marginLeft: theme.spacing(1),
+        // marginRight: theme.spacing(1),
+        
+    },
+    formControl: {
+        width: '100%',
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
     }
+
 }));
 function Login (props) {
     const classes = useStyles()
@@ -72,18 +88,16 @@ function Login (props) {
                             fullWidth={true}
                         />
                         
-                        <TextField
-                            id='password'
-                            label='Password'
-                            className={classes.textField}
-                            // value={values.name}
-                            // onChange={handleChange('name')}
-                            type="password"
-                            margin='normal'
-                            variant='filled'
-                            fullWidth={true}
+                        
+                        <FormControl className={classes.formControl}>
+                        <InputLabel className={classes.textField} htmlFor='password-label'>Password</InputLabel>
+                        <PasswordField
+                            id='password-label'
+                            className={classes.passwordField}
+                            
                         />
-                        <PasswordField />
+                        
+                        </FormControl>
                     </form>
                 </Grid>
                 {/* row 4 */}
