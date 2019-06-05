@@ -13,11 +13,7 @@ import print from '../assests/images/Print.svg'
 import cart from '../assests/images/Cart.svg'
 import card from '../assests/images/Card.svg'
 import otherFunctions from '../assests/images/OtherFunctions.svg'
-import boxSearch from '../assests/images/BoxSearch.svg'
-import accountGroup from '../assests/images/AccountGroup.svg'
-import dots from '../assests/images/Dots.svg'
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import BottomBar from '../components/BottomBar'
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -40,6 +36,11 @@ const useStyles = makeStyles(theme => ({
         width: 100,
         height: 100,
     },
+    bottomBar: {
+        width: '100%',
+        position: 'fixed',
+        bottom: 0,
+    }
 }))
 function Dashboard(props) {
     const classes = useStyles()
@@ -173,12 +174,7 @@ function Dashboard(props) {
                     </Card>
                 </Grid>
             </Grid>
-            <BottomNavigation  className={classes.root}>
-                <BottomNavigationAction label="Recents" value="recents" icon={<ReactSVG src={boxSearch} />} />
-                <BottomNavigationAction label="Favorites" value="favorites" icon={<ReactSVG src={accountGroup} />} />
-                <BottomNavigationAction label="Nearby" value="nearby" icon={<ReactSVG src={dots} />} />
-            
-            </BottomNavigation>
+            <BottomBar />
         </div>
     )
 }

@@ -3,9 +3,9 @@ import './App.css';
 import { Route, HashRouter } from 'react-router-dom'
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
 import theme from './theme/theme'
-import Login from './pages/login'
-import SalesZone from './pages/salesZone'
-import Dashboard from './pages/dashboard'
+import Login from './pages/Login'
+import SalesZone from './pages/SalesZone'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
