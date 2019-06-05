@@ -3,11 +3,12 @@ import { useGlobal } from 'reactn'
 import ReactSVG from 'react-svg'
 import { makeStyles } from '@material-ui/core/styles'
 import classNames from 'classnames'
+import Fab from '@material-ui/core/Fab'
 import Grid from '@material-ui/core/Grid'
 import TextField from '@material-ui/core/TextField'
 import Typography from '@material-ui/core/Typography'
-import Fab from '@material-ui/core/Fab'
-import { withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom"
+import PasswordField from '../components/PasswordField'
 
 const useStyles = makeStyles(theme => ({
     container: {
@@ -70,6 +71,7 @@ function Login (props) {
                             variant='filled'
                             fullWidth={true}
                         />
+                        
                         <TextField
                             id='password'
                             label='Password'
@@ -81,6 +83,7 @@ function Login (props) {
                             variant='filled'
                             fullWidth={true}
                         />
+                        <PasswordField />
                     </form>
                 </Grid>
                 {/* row 4 */}

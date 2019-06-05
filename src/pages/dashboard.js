@@ -10,7 +10,7 @@ import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 import { withRouter } from 'react-router-dom'
 import print from '../assests/images/Print.svg'
-import cart from '../assests/images/Cart.svg'
+import cartOutline from '../assests/images/CartOutline.svg'
 import card from '../assests/images/Card.svg'
 import otherFunctions from '../assests/images/OtherFunctions.svg'
 import BottomBar from '../components/BottomBar'
@@ -101,7 +101,7 @@ function Dashboard(props) {
                     <Card className={classes.card}>
                         <CardActionArea className={classes.cardContent}>
                             <CardContent>
-                                <ReactSVG src={cart} />
+                                <ReactSVG src={cartOutline} />
                                 <Typography gutterBottom variant='h7' >
                                     Purchase
                                 </Typography>
@@ -165,7 +165,7 @@ function Dashboard(props) {
                     <Card className={classes.card}>
                         <CardActionArea className={classes.cardContent}>
                             <CardContent>
-                                <ReactSVG src={cart} />
+                                <ReactSVG src={cartOutline} />
                                 <Typography gutterBottom variant='h7' >
                                     Purchase
                                 </Typography>
