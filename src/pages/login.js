@@ -30,10 +30,7 @@ const useStyles = makeStyles(theme => ({
         width: 123
     },
     passwordField: {
-        width: '100%',
-        // marginLeft: theme.spacing(1),
-        // marginRight: theme.spacing(1),
-        
+        width: '100%'
     },
     formControl: {
         width: '100%',

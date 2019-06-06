@@ -170,6 +170,7 @@ function SalesZone(props) {
                         Logout
                     </Fab>
                 </Grid>
+                <Grid item xs={3} />
                 <Grid item xs={4}>
                     <Fab 
                         variant="extended" 

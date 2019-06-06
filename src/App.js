@@ -6,6 +6,7 @@ import theme from './theme/theme'
 import Login from './pages/Login'
 import SalesZone from './pages/SalesZone'
 import Dashboard from './pages/Dashboard'
+import Barcode from './pages/Barcode'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path='/' component={Login} />
           <Route exact path='/salesZone' component={SalesZone} />
           <Route exact path='/dashboard' component={Dashboard} />
+          <Route exact path='/barcode' component={Barcode} />
         </div>
       </HashRouter>
     </MuiThemeProvider>
