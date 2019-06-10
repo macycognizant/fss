@@ -6,13 +6,15 @@
   "dependencies": {
     "@material-ui/core": "^4.0.0",
     "classnames": "^2.2.6",
+    "clsx": "^1.0.4",
     "gh-pages": "^2.0.1",
-    "material-ui-password-field": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-number-format": "^4.0.8",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "react-svg": "^10.0.4",
+    "react-text-mask": "^5.4.3",
     "react-to-print": "^2.1.2",
     "reactn": "^2.0.2",
     "typeface-roboto": "^0.0.54"
