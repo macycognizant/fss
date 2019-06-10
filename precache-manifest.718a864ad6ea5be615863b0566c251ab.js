@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8dfb0bdbf7698364f1ee75e24e033f1",
+    "revision": "230eb6b0bc0ca20b14a0cbcd3d81207c",
     "url": "/fss/index.html"
   },
   {
-    "revision": "478c07278f796667ba9b",
-    "url": "/fss/static/css/main.2cce8147.chunk.css"
+    "revision": "13541d68f696c26dacdc",
+    "url": "/fss/static/css/main.94ad8322.chunk.css"
   },
   {
-    "revision": "f7b20cdd05338c433847",
-    "url": "/fss/static/js/2.c7088214.chunk.js"
+    "revision": "0bdabffaa3a1695e96d5",
+    "url": "/fss/static/js/2.b1f7c86d.chunk.js"
   },
   {
-    "revision": "478c07278f796667ba9b",
-    "url": "/fss/static/js/main.5fb908d8.chunk.js"
+    "revision": "13541d68f696c26dacdc",
+    "url": "/fss/static/js/main.7bfd765b.chunk.js"
   },
   {
     "revision": "5fef766ef7141d8b7f3e",
@@ -22,6 +22,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c97b58baeb0913f07bca3065704dfb26",
     "url": "/fss/static/media/AccountGroup.c97b58ba.svg"
+  },
+  {
+    "revision": "601d0459b50a898ca2fc4751be51a4bb",
+    "url": "/fss/static/media/AccountOutline.601d0459.svg"
+  },
+  {
+    "revision": "dbd92718b0d6da1a062d0d983c052be6",
+    "url": "/fss/static/media/Blank.dbd92718.svg"
   },
   {
     "revision": "610f1cc2c3a223b7852b432e7f7994c8",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "027367acd38eea1db88ece9b15b02261",
     "url": "/fss/static/media/Dots.027367ac.svg"
+  },
+  {
+    "revision": "6658c7d4aa5f91dd934d12bb70c656b1",
+    "url": "/fss/static/media/KeyVariant.6658c7d4.svg"
   },
   {
     "revision": "5fcf194974b1fbbbe12221031c7d3199",
