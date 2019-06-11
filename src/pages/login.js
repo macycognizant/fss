@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { useGlobal } from 'reactn'
 import ReactSVG from 'react-svg'
 import { makeStyles } from '@material-ui/core/styles'
-import classNames from 'classnames'
-import Fab from '@material-ui/core/Fab'
 import Grid from '@material-ui/core/Grid'
 import TextField from '@material-ui/core/TextField'
 import Typography from '@material-ui/core/Typography'
@@ -13,12 +11,6 @@ import keyVariant from '../assests/images/KeyVariant.svg'
 import blank from '../assests/images/Blank.svg'
 import Button from '@material-ui/core/Button'
 
-import NumberFormat from 'react-number-format';
-import MaskedInput from 'react-text-mask';
-import Input from '@material-ui/core/Input';
-
-// import Visibility from '@material-ui/icons/Visibility';
-// import VisibilityOff from '@material-ui/icons/VisibilityOff';
 
 const useStyles = makeStyles(theme => ({
     container: {
@@ -76,7 +68,7 @@ function Login (props) {
                 <Grid item xs={10} >
                     
                     <form className={classes.container} noValidate autoComplete='off'>
-                        <Grid container spacing={1} alignItems='flex-end'>
+                        <Grid container spacing={1} alignItems='flex-end' wrap='nowrap'>
                             <Grid item>
                                 <ReactSVG src={accountOutline} />
                             </Grid>
@@ -89,9 +81,7 @@ function Login (props) {
                                 <ReactSVG src={keyVariant} />
                             </Grid>
                             <Grid item xs={11}>
-                           
                                 <TextField id='pin' label='Pin' className={classes.textField} type='password' onChange={handlePinChange} value={pin}/>
-        
                             </Grid>
                         </Grid>
                         <Grid container spacing={1} alignItems='flex-end'>
