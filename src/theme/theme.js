@@ -9,8 +9,9 @@ export default createMuiTheme({
     },
     palette: {
         primary: {
-            main: '#c62828'
+            main: '#af0000'
         },
-        secondary: blue
+        macysRedHover: '#af0000',
+        macysRed: '#cc0000'
     }
 })
