@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73c97463179cdb1aa5119a8faa0effb2",
+    "revision": "fb72bf70d094da0bf53c0ee5671dc5d3",
     "url": "/fss/index.html"
   },
   {
-    "revision": "4a2e9c40847afd24b5b1",
+    "revision": "e2bbf9abea1fd3c1c148",
     "url": "/fss/static/css/main.785828dd.chunk.css"
   },
   {
-    "revision": "eec7a879978494c26e66",
-    "url": "/fss/static/js/2.d706b4a8.chunk.js"
+    "revision": "2f898705b3ef8aab3976",
+    "url": "/fss/static/js/2.5f4b74e9.chunk.js"
   },
   {
-    "revision": "4a2e9c40847afd24b5b1",
-    "url": "/fss/static/js/main.c61b5c51.chunk.js"
+    "revision": "e2bbf9abea1fd3c1c148",
+    "url": "/fss/static/js/main.e91d435b.chunk.js"
   },
   {
     "revision": "5fef766ef7141d8b7f3e",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "601d0459b50a898ca2fc4751be51a4bb",
     "url": "/fss/static/media/AccountOutline.601d0459.svg"
+  },
+  {
+    "revision": "5420ad038c7bd120d70bcac13400af46",
+    "url": "/fss/static/media/ArrowLeftCircle.5420ad03.svg"
   },
   {
     "revision": "dbd92718b0d6da1a062d0d983c052be6",
@@ -44,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fss/static/media/CartOutline.d3dfd988.svg"
   },
   {
+    "revision": "52cce08dfd0635e4e78f543296bf8279",
+    "url": "/fss/static/media/ChevronLeft.52cce08d.svg"
+  },
+  {
     "revision": "027367acd38eea1db88ece9b15b02261",
     "url": "/fss/static/media/Dots.027367ac.svg"
   },
   {
     "revision": "6658c7d4aa5f91dd934d12bb70c656b1",
     "url": "/fss/static/media/KeyVariant.6658c7d4.svg"
+  },
+  {
+    "revision": "2b3853b44ceea44e0e7a58ca63d08864",
+    "url": "/fss/static/media/Magnetify.2b3853b4.svg"
   },
   {
     "revision": "5fcf194974b1fbbbe12221031c7d3199",
