@@ -7,6 +7,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction'
 import boxSearch from '../assests/images/BoxSearch.svg'
 import accountGroup from '../assests/images/AccountGroup.svg'
 import dots from '../assests/images/Dots.svg'
+import magnetify from '../assests/images/Magnetify.svg'
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -22,10 +23,10 @@ const useStyles = makeStyles(theme => ({
 function BottomBar(props) {
     const classes = useStyles()
     return (
-        <div >
-            <BottomNavigation  className={classes.bottomBar}>
-                <BottomNavigationAction label="Recents" value="recents" icon={<ReactSVG src={boxSearch} />} />
-                <BottomNavigationAction label="Favorites" value="favorites" icon={<ReactSVG src={accountGroup} />} />
+        <div>
+            <BottomNavigation  className={classes.bottomBar} showLabels>
+                <BottomNavigationAction label="Find It" value="find it" icon={<ReactSVG src={magnetify} />} />
+                <BottomNavigationAction label="Customers" value="customers" icon={<ReactSVG src={accountGroup} />} />
                 <BottomNavigationAction label="Nearby" value="nearby" icon={<ReactSVG src={dots} />} />
             </BottomNavigation>
         </div>

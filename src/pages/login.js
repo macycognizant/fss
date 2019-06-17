@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
         color: '#ffffff',
         marginLeft: theme.spacing(1),
         marginRight: theme.spacing(1),
-        marginTop: theme.spacing(5),
+        marginTop: theme.spacing(3),
         width: '100%'
     },
     formControl: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
         marginLeft: theme.spacing(1),
         marginRight: theme.spacing(1),
     }
-}));
+}))
 function Login (props) {
     const classes = useStyles()
     const [ userName, setUserName ] = useGlobal('userName')
@@ -78,10 +78,10 @@ function Login (props) {
                                 <ReactSVG src={accountOutline} />
                             </Grid>
                             <Grid item xs={11}>
-                                <TextField id='associate-number' label='Associate number' className={classes.textField} onChange={handleUserNameChange}/>
+                                <TextField id='associate-number' type='number' label='Associate number' className={classes.textField} onChange={handleUserNameChange}/>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={1} alignItems='flex-end'>
+                        <Grid container spacing={1} alignItems='flex-end' wrap='nowrap'>
                             <Grid item>
                                 <ReactSVG src={keyVariant} />
                             </Grid>
@@ -94,14 +94,13 @@ function Login (props) {
                                 <ReactSVG src={blank} />
                             </Grid>
                             <Grid item xs={11}>
-                            <Button variant="contained" className={classes.button} onClick={() => handleLogin()} >
-                                Login
-                            </Button>
+                                <Button variant="contained" className={classes.button} onClick={() => handleLogin()} >
+                                    Login
+                                </Button>
                             </Grid>
                         </Grid>
                     </form>
                 </Grid>
-                
             </Grid>
         </div>
     )

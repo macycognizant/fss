@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import SalesZone from './pages/SalesZone'
 import Dashboard from './pages/Dashboard'
 import Barcode from './pages/Barcode'
+import FindIt from './pages/FindIt'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HashRouter basename='/'>
         <div className='App'>
           <Route exact path='/' component={Login} />
+          <Route exact path='/findIt' component={FindIt} />
           <Route exact path='/salesZone' component={SalesZone} />
           <Route exact path='/dashboard' component={Dashboard} />
           <Route exact path='/barcode' component={Barcode} />

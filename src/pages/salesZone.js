@@ -93,7 +93,7 @@ function SalesZone(props) {
     const classes = useStyles()
     const [ userName, setUserName ] = useGlobal('userName')
     function handleContinue () {
-        props.history.push("/dashboard");
+        props.history.push("/findIt");
     }
     return (
         <div >
